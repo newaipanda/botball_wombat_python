@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>motor &#8212; botballpython 0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=12dfc556" />
+    <script src="../_static/jquery.js?v=5d32c60e"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+    <script src="../_static/documentation_options.js?v=2709fde1"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="servo" href="servo.html" />
+    <link rel="prev" title="Servo Module" href="../servo.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-motor">
+<span id="motor"></span><h1>motor<a class="headerlink" href="#module-motor" title="Link to this heading"></a></h1>
+<p class="rubric">Functions</p>
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="../motor.html#motor.alloff" title="motor.alloff"><code class="xref py py-obj docutils literal notranslate"><span class="pre">alloff</span></code></a>()</p></td>
+<td><p>Turns all motors off.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../motor.html#motor.ao" title="motor.ao"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ao</span></code></a>()</p></td>
+<td><p>Turns all motors off.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../motor.html#motor.bk" title="motor.bk"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bk</span></code></a>(motor)</p></td>
+<td><p>Moves the given motor backward at full power.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../motor.html#motor.block_motor_done" title="motor.block_motor_done"><code class="xref py py-obj docutils literal notranslate"><span class="pre">block_motor_done</span></code></a>(motor)</p></td>
+<td><p>Wait until the motor is at its goal.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../motor.html#motor.bmd" title="motor.bmd"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bmd</span></code></a>(motor)</p></td>
+<td><p>Wait until the motor is at its goal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../motor.html#motor.clear_motor_position_counter" title="motor.clear_motor_position_counter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_motor_position_counter</span></code></a>(motor)</p></td>
+<td><p>Clears the motor position counter.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../motor.html#motor.cmpc" title="motor.cmpc"><code class="xref py py-obj docutils literal notranslate"><span class="pre">cmpc</span></code></a>(motor)</p></td>
+<td><p>Clears the motor position counter.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../motor.html#motor.fd" title="motor.fd"><code class="xref py py-obj docutils literal notranslate"><span class="pre">fd</span></code></a>(motor)</p></td>
+<td><p>Moves the given motor forward at full power.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../motor.html#motor.freeze" title="motor.freeze"><code class="xref py py-obj docutils literal notranslate"><span class="pre">freeze</span></code></a>(motor)</p></td>
+<td><p>Active braking to stop a motor.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../motor.html#motor.get_motor_done" title="motor.get_motor_done"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_motor_done</span></code></a>(motor)</p></td>
+<td><p>Check if the motor has reached its goal.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../motor.html#motor.get_motor_position_counter" title="motor.get_motor_position_counter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_motor_position_counter</span></code></a>(motor)</p></td>
+<td><p>Gets the current motor position.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../motor.html#motor.get_pid_gains" title="motor.get_pid_gains"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_pid_gains</span></code></a>(motor, p, i, d, pd, id, dd)</p></td>
+<td><p>Get the motor PID gains, represented as fractions.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../motor.html#motor.getpwm" title="motor.getpwm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">getpwm</span></code></a>(motor)</p></td>
+<td><p>Get the current motor PWM command.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../motor.html#motor.gmpc" title="motor.gmpc"><code class="xref py py-obj docutils literal notranslate"><span class="pre">gmpc</span></code></a>(motor)</p></td>
+<td><p>Gets the current motor position.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../motor.html#motor.mav" title="motor.mav"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mav</span></code></a>(motor, velocity)</p></td>
+<td><p>Set a goal velocity in ticks per second.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../motor.html#motor.motor" title="motor.motor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">motor</span></code></a>(motor, percent)</p></td>
+<td><p>Moves a motor at a percent velocity.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../motor.html#motor.motor_power" title="motor.motor_power"><code class="xref py py-obj docutils literal notranslate"><span class="pre">motor_power</span></code></a>(motor, percent)</p></td>
+<td><p>Moves a motor at a percent power.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../motor.html#motor.move_at_velocity" title="motor.move_at_velocity"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move_at_velocity</span></code></a>(motor, velocity)</p></td>
+<td><p>Set a goal velocity in ticks per second.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../motor.html#motor.move_relative_position" title="motor.move_relative_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move_relative_position</span></code></a>(motor, speed, delta_pos)</p></td>
+<td><p>Set a goal position (in ticks) for the motor to move to, relative to the current position.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../motor.html#motor.move_to_position" title="motor.move_to_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move_to_position</span></code></a>(motor, speed, goal_pos)</p></td>
+<td><p>Set a goal position (in ticks) for the motor to move to.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../motor.html#motor.mrp" title="motor.mrp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mrp</span></code></a>(motor, speed, delta_pos)</p></td>
+<td><p>Set a goal position (in ticks) for the motor to move to, relative to the current position.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../motor.html#motor.mtp" title="motor.mtp"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mtp</span></code></a>(motor, speed, goal_pos)</p></td>
+<td><p>Set a goal position (in ticks) for the motor to move to.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../motor.html#motor.off" title="motor.off"><code class="xref py py-obj docutils literal notranslate"><span class="pre">off</span></code></a>(motor)</p></td>
+<td><p>Turns the specified motor off.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../motor.html#motor.set_pid_gains" title="motor.set_pid_gains"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_pid_gains</span></code></a>(motor, p, i, d, pd, id, dd)</p></td>
+<td><p>Set the motor PID gains, represented as fractions.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../motor.html#motor.setpwm" title="motor.setpwm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">setpwm</span></code></a>(motor, pwm)</p></td>
+<td><p>Set the motor PWM (percent power) command.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">botballpython</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../modules.html">Modules</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../modules.html#module-index">Module Index</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">motor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="servo.html">servo</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../motor.html">Motor Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../servo.html">Servo Module</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="../modules.html">Modules</a><ul>
+      <li>Previous: <a href="../servo.html" title="previous chapter">Servo Module</a></li>
+      <li>Next: <a href="servo.html" title="next chapter">servo</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Max.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.3.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="../_sources/_autosummary/motor.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
