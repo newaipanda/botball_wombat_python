@@ -10,15 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Clear GitHub Actions Cache
-      run: |
-        echo "Cleaning GitHub Actions Cache..."
-        sudo rm -rf /usr/local/lib/node_modules
-
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
         node-version: '20'
+        cache: 'npm'
 
     - name: Checkout repository
       uses: actions/checkout@v3
