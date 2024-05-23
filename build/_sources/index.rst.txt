@@ -14,3 +14,8 @@ Motor Module
 ------------
 .. automodule:: motor
    :members:
+
+Servo Module
+------------
+.. automodule:: servo
+   :members:
