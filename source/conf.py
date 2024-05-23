@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../modules'))
+sys.path.insert(0, os.path.abspath('../docs/module'))
 
 # Configuration file for the Sphinx documentation builder.
 #
