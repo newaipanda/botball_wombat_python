@@ -1,8 +1,3 @@
-.. BotballPython documentation master file, created by
-   sphinx-quickstart on Thu May 27 17:37:14 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to BotballPython's documentation!
 =========================================
 
@@ -11,8 +6,8 @@ Welcome to BotballPython's documentation!
    :caption: Contents:
 
    modules
-   motor
-   servo
+   _autosummary/motor
+   _autosummary/servo
 
 Indices and tables
 ==================

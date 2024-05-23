@@ -2,6 +2,7 @@ Servo Module
 ============
 
 .. automodule:: servo
-    :members:
-    :undoc-members:
-    :show-inheritance:
+   :members:
+   :undoc-members:
+   :show-inheritance:
+   :noindex:

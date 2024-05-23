@@ -6,12 +6,3 @@ Modules
 
    motor
    servo
-
-Module Index
-============
-
-.. autosummary::
-   :toctree: _autosummary
-
-   motor
-   servo
