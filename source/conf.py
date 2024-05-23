@@ -1,7 +1,6 @@
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../module'))
-
+sys.path.insert(0, os.path.abspath('../modules'))
 
 # Configuration file for the Sphinx documentation builder.
 #
@@ -19,10 +18,18 @@ release = '0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.autodoc']
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.autosummary',
+    'sphinx_rtd_theme',
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
+
+# 设置主题
+html_theme = 'sphinx_rtd_theme'
 
 
 
